@@ -39,7 +39,7 @@ header {
     line-height: 24px;
     color: #000000;
     padding: 16px;
-    transition: all 1s ease;
+    transition: all 0.4s ease;
 }
 .nav-link:hover {
     border-bottom: 1px solid #191919;
@@ -392,6 +392,15 @@ header {
     line-height: 24px;
     color: #FFFFFF;
     padding: 5px 16px 5px 16px;
+    transition: all 0.4s ease;
+}
+.inp-btn:hover {
+    background: rgba(0, 186, 252, 0.8);
+    border-radius: 5px;
+}
+.inp-btn:active {
+    background: rgba(0, 186, 252, 0.6);
+    border-radius: 5px;
 }
 footer {
     background-color: #191919;
